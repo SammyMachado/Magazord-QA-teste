@@ -80,7 +80,8 @@ Envio em anexo um print do anúncio e um print do log, mostrando que não foram 
 Para o caso acima, descreva quais seriam os passos para analise e identificação do problema tendo em vista a documentação do próprio ML. Visto que não possui acesso ao painel seller do cliente e nem ao painel do mesmo no ERP Magazord, quais seriam as possíveis hipóteses do erro.
 
 
-Resposta: 
+**Resposta:**
+
 Primeiramente eu iria verificar qual a validação aplicada para que os anúncios sejam definidos como ‘Pausado (sem estoque)’ para isso seria necessário procurar a documentação sobre o funcionamento dessa rotina. Depois disso eu tentaria simular a situação em um ambiente de testes para entender a origem do erro, caso não fosse possível eu solicitaria ajuda a equipe de desenvolvimento para verificar no código fonte o que poderia estar causando esse problema. Se isso fosse demandar muito tempo seria aberto um chamado para uma verificação aprofundada do problema.
 
 # 4º Cenário:
