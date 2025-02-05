@@ -107,9 +107,3 @@ Seriam realizados os seguintes testes:
 - Informar uma Rua sem relacionamento com as demais informações do Endereço.
 - Informar um Estado sem relacionamento com as demais informações do Endereço.
 - Preencher todos os campos corretamente e verificar se o sistema gravou as informações.
-
-> [!NOTE]
-> **Suba o repositório no seu Github e envie o link diretamente para o seu recrutador.**
-
-> [!WARNING]
-> **Não serão aceitos alterações após o envio, caso precise de mais tempo para implementação do projeto alinhe com o seu recrutador com antecedência.**
