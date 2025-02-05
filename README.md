@@ -1,11 +1,3 @@
-# Magazord-QA-teste
-
-<div align='center'>
-
-![Magazord](LogoMagazord.png)
-
-</div>
-
 # Teste para vaga de Analista de Qualidade no Magazord.com.br
 Este repositório tem como fim testar os candidatos para vaga de analista de qualidade na empresa [Magazord](https://magazord.com.br).
 
@@ -87,8 +79,8 @@ Envio em anexo um print do anúncio e um print do log, mostrando que não foram 
 
 Para o caso acima, descreva quais seriam os passos para analise e identificação do problema tendo em vista a documentação do próprio ML. Visto que não possui acesso ao painel seller do cliente e nem ao painel do mesmo no ERP Magazord, quais seriam as possíveis hipóteses do erro.
 
-![anúncios pausado no magazord e sem estoque](aa.png)
 
+Resposta: 
 Primeiramente eu iria verificar qual a validação aplicada para que os anúncios sejam definidos como ‘Pausado (sem estoque)’ para isso seria necessário procurar a documentação sobre o funcionamento dessa rotina. Depois disso eu tentaria simular a situação em um ambiente de testes para entender a origem do erro, caso não fosse possível eu solicitaria ajuda a equipe de desenvolvimento para verificar no código fonte o que poderia estar causando esse problema. Se isso fosse demandar muito tempo seria aberto um chamado para uma verificação aprofundada do problema.
 
 # 4º Cenário:
@@ -103,7 +95,7 @@ Você está encarregado de testar a validação de dados cadastrais em um sistem
 
 Houve alterações nos campos mencionados acima no cadastro do cliente, quais testes você faria para validar que o(s) campo(s) esta(ão) funcionando conforme esperado?
 
-![Alterar pessoa](AlterarPessoa.png)
+Seriam realizados os seguintes testes:
 
 - Informar apenas o primeiro Nome no campo ‘Nome Completo’.
 - Informar um E-mail inválido no referido campo.
@@ -115,21 +107,6 @@ Houve alterações nos campos mencionados acima no cadastro do cliente, quais te
 - Informar uma Rua sem relacionamento com as demais informações do Endereço.
 - Informar um Estado sem relacionamento com as demais informações do Endereço.
 - Preencher todos os campos corretamente e verificar se o sistema gravou as informações.
-
-**Orientação:** Crie casos de teste para validar a entrada de dados nos campos modificados.
-
-## Avaliação
-
-> [!IMPORTANT]
-> **Os candidatos serão avaliados com base na clareza, precisão e detalhamento das respostas.**
-
-> [!IMPORTANT]
-> **A capacidade de compreender e comunicar efetivamente requisitos e problemas é fundamental.**
-
-> [!IMPORTANT]
-> **A organização e a estrutura das respostas também serão consideradas na avaliação.**
-
-## Envio do teste
 
 > [!NOTE]
 > **Suba o repositório no seu Github e envie o link diretamente para o seu recrutador.**
