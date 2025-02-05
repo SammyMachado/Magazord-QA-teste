@@ -1,5 +1,4 @@
 # Teste para vaga de Analista de Qualidade no Magazord.com.br
-Este repositório tem como fim testar os candidatos para vaga de analista de qualidade na empresa [Magazord](https://magazord.com.br).
 
 # 1º Cenário:
 
